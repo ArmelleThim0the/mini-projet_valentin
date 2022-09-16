@@ -36,7 +36,7 @@ ul {
     position: relative;
     }
 
-    .degrade {
+.degrade {
         background:linear-gradient(black,red,black);
     }
 
@@ -99,4 +99,8 @@ footer {
     background-color: black;
     border-radius: 10px;
     margin: 1%;
+    }
+
+    @media (min-width: 700px) {
+        nav { grid-template-columns: repeat(3, 1fr);}
     }
